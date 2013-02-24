@@ -9,7 +9,7 @@
     <title>PDX Web</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
   </head>
   <body>
@@ -21,75 +21,94 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
           <a class="brand" href="/">PDX Web</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li class="nav-header">Nav header</li>
-                        <li><a href="#">Separated link</a></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
-                </li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#schedule">Schedule</a></li>
+              <li><a href="#speakers">Speakers</a></li>
+              <li><a href="#happy-hour">Happy Hour</a></li>
+              <li><a href="#sponsors">Sponsors</a></li>
+              <li><a href="#colophon">Colophon</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
 
-      <div class="container-fluid">
-
-          <!-- Main hero unit for a primary marketing message or call to action -->
-          <div class="hero-unit">
-              <h1>Hello, world!</h1>
-              <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-              <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+    <header id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <h1><a href="/">PDX Web</a></h1>
+            <p>PDX Web is &hellip;</p>
+            <p>Contact us&hellip;</p>
           </div>
+        </div>
+      </div>
+    </header>
 
-          <!-- Example row of columns -->
-          <div class="row">
-              <div class="span4">
-                  <h2>Heading</h2>
-                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                  <p><a class="btn" href="#">View details &raquo;</a></p>
-              </div>
-              <div class="span4">
-                  <h2>Heading</h2>
-                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                  <p><a class="btn" href="#">View details &raquo;</a></p>
-             </div>
-              <div class="span4">
-                  <h2>Heading</h2>
-                  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                  <p><a class="btn" href="#">View details &raquo;</a></p>
-              </div>
+    <div id="schedule" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <h2><a href="/">Schedule</a></h2>
+            <p>Full row for next event; subsequent three in span4s beneath.</p>
           </div>
+        </div>
+      </div>
+    </div>
 
-          <hr>
+    <div id="speakers" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <h2><a href="/">Speakers</a></h2>
+            <p>Three upcoming speakers in span4s with past speakers beneath?</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-          <footer>
-              <p>&copy; Company 2012</p>
-          </footer>
+    <div id="happy-hour" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <h2><a href="/">Happy Hour</a></h2>
+            <p>Bailey’s Taproom, with times, map and how to connect with people once there.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      </div> <!-- /container -->
+    <div id="sponsors" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <h2><a href="/">Sponsors</a></h2>
+            <p>Greyed logos with thank yous and what each sponsored.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="colophon" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <h2><a href="/">Colophon</a></h2>
+            <p>&copy; PDX Web 2013</p>
+            <p>CSS Zen Garden; fork and issue a pull request.</p>
+            <p>Web Committee</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-    <script src="/js/vendor/bootstrap.min.js"></script>
-    <script src="/js/main.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
     <script>
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

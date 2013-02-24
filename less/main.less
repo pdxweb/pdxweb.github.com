@@ -1,7 +1,43 @@
 
+/*  Google Font Load: Three weights of Lato
+ *  Loaded prior to Bootstrap so that we can reference Lato
+ *  in less/vendor/bootstrap/variables.less */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+/*  Bootstrap Less Files
+ *  Added here so that we can customize the variables prior to
+ *  compiling the less into css. */
+
 @import "vendor/bootstrap/bootstrap.less";
 @import "vendor/bootstrap/responsive.less";
 
+/*  And now, our styles... */
+
 body {
-  padding: 3em 0; 
+  padding-top: 40px;
+}
+
+#about {
+  background-color: white;
+}
+
+#schedule {
+  background-color: white;
+}
+
+#speakers {
+  background-color: white;
+}
+
+#happy-hour {
+  background-color: white;
+}
+
+#sponsors {
+  background-color: white;
+}
+
+#colophon {
+  background-color: @gray;
 }
