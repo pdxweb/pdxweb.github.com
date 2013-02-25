@@ -5,7 +5,7 @@ PDX Web &amp; Design Site
 
 ## Initial Build Notes
 
-This first draft is based on the [HTML5 Boilerplate](http://html5boilerplate.com/) with the addition of the [Bootstrap](http://twitter.github.com/bootstrap/) `.less` files in order to alter Bootstrap variables.
+This first draft is based on the [HTML5 Boilerplate](http://html5boilerplate.com/) with the addition of the [Bootstrap](http://twitter.github.com/bootstrap/) `.less` files in order to alter Bootstrap variables. I threw a Google Font reference in as a starter as well.
 
 ### Needed
 
