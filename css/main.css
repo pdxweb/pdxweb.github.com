@@ -7901,6 +7901,10 @@ a.badge:focus {
 body {
   padding-top: 40px;
 }
+.section {
+  padding: 60px 0;
+  min-height: 500px;
+}
 #about {
   background-color: white;
 }
