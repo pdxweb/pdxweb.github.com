@@ -1,6 +1,4 @@
-
-$(document).ready(function(){
-  
+jQuery(document).ready(function($){
   $('a[href^="#"]').click(function(e){
     e.preventDefault();
     var anchorName = $(this).attr('href'),
@@ -13,6 +11,4 @@ $(document).ready(function(){
       });
     }
   });
-  
-});
-
+})();
