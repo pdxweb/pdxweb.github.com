@@ -1,3 +1,4 @@
+$.noConflict();
 jQuery(document).ready(function($){
   $('a[href^="#"]').click(function(e){
     e.preventDefault();
@@ -14,7 +15,7 @@ jQuery(document).ready(function($){
 
   // make a JQUERY.JSON call with the provided API URL
   function callPDXWebAPI(x){
-    var url = x;
+    var url = x + "&callback=?";
     $.getJSON(url, function(data) {
       //Do Stuff with the returned JSON data
       console.log(data);
@@ -23,4 +24,4 @@ jQuery(document).ready(function($){
 
   //Call the PDXWeb&Design Meetup Event API 
   callPDXWebAPI('http://api.meetup.com/2/events?status=upcoming&order=time&limited_events=False&group_urlname=pdxweb&desc=false&offset=0&format=json&page=20&fields=&sig_id=14633664&sig=4ef7562ef1624cb125f51f48616320bff23b6c95');
-})();
+});
